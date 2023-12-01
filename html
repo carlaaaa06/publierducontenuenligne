@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ma Page Web avec des Images</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>Dan DACHEWSKY</h1>
+      <div class="line"></div>
+      <h2>Art Gallery</h2>
+      <nav>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#oeuvres">Oeuvres</a></li>
+          <li><a href="/contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="avant-propos">
+      <h2>Avant-propos</h2>
+      <div class="row">
+        <img class="col" src="images/man.jpg" alt="Dan DACHEWSKY" />
+        <p class="col">
+          Né en 1955, à Copenhague, ce n’est que depuis 2008 que je pratique la
+          photographie. La série “beauté poétique urbaine”, qui a vocation à la
+          recherche de beauté et poésie dans la froideur de la ville, a commencé
+          en 2019. En effet c’est pendant la pandémie, que j’ai cherché à
+          apprécier, à découvrir sous cette facette-là ce que je voyais tous les
+          jours depuis mon balcon. Ensuite, cela c’est étendu à la ville entière
+          et cherchant le coté organique, la douceur, la rondeur de
+          l’urbanisation.
+        </p>
+      </div>
+    </div>
+
+    <div id="oeuvres">
+      <div class="horizontal-title">
+        <div class="line"></div>
+        <div class="title"><h2>Oeuvres</h2></div>
+        <div class="line"></div>
+      </div>
+
+      <table>
+        <tr>
+          <!-- Maximum 3 td for each tr -->
+          <td>
+            <div class="image-container">
+              <img src="images/image1.jpg" alt="Image 1" />
+              <p>"Magie lumineuse"</p>
+              <p>1589.99€</p>
+              <div class="buttondiv"><a href="/contacts.html">Réserver</a></div>
+            </div>
+          </td>
+          <td>
+            <div class="image-container">
+              <img src="images/image2.jpg" alt="Image 2" />
+              <p>"Contrastes"</p>
+              <p>1589.99€</p>
+              <div class="buttondiv"><a href="/contacts.html">Réserver</a></div>
+            </div>
+          </td>
+          <td>
+            <div class="image-container">
+              <img src="images/image3.jpg" alt="Image 3" />
+              <p>"Image 3"</p>
+              <p>1589.99€</p>
+              <div class="buttondiv"><a href="/contacts.html">Réserver</a></div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Ma Page Web. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
