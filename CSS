@@ -184,7 +184,7 @@ img {
   }
 
   #oeuvres table tr {
-    width: 100%;
+    width: auto;
   }
   #oeuvres table tr td {
     display: table-row;
@@ -254,3 +254,4 @@ footer #coloredfooter {
 footer #coloredfooter .col {
   width: 30%;
 }
+
